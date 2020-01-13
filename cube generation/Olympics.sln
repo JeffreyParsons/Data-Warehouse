@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29201.188
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{D2ABAB84-BF74-430A-B69E-9DC6D40DDA17}") = "Olympics", "Olympics\Olympics.dwproj", "{F0D422C8-1F2E-4E07-8894-1A38C4B1A89D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Development|Default = Development|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F0D422C8-1F2E-4E07-8894-1A38C4B1A89D}.Development|Default.ActiveCfg = Development
+		{F0D422C8-1F2E-4E07-8894-1A38C4B1A89D}.Development|Default.Build.0 = Development
+		{F0D422C8-1F2E-4E07-8894-1A38C4B1A89D}.Development|Default.Deploy.0 = Development
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3457375E-D6B5-48AE-AB93-3E8F9BF271F8}
+	EndGlobalSection
+EndGlobal

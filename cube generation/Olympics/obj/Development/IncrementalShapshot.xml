@@ -1,0 +1,89 @@
+﻿<DeploymentSnapshot xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0">
+  <Target>
+    <Database>Olympics</Database>
+    <Server>SBUS-DB</Server>
+    <ConnectionString>Data Source=SBUS-DB;Timeout=0</ConnectionString>
+  </Target>
+  <Options>
+    <TransactionalDeployment>false</TransactionalDeployment>
+    <PartitionDeployment>DeployPartitions</PartitionDeployment>
+    <RoleDeployment>DeployRolesRetainMembers</RoleDeployment>
+    <ProcessingOption>Default</ProcessingOption>
+    <OutputScript></OutputScript>
+    <ImpactAnalysisFile></ImpactAnalysisFile>
+    <ConfigurationSettingsDeployment>Deploy</ConfigurationSettingsDeployment>
+    <OptimizationSettingsDeployment>Deploy</OptimizationSettingsDeployment>
+    <WriteBackTableCreation>UseExisting</WriteBackTableCreation>
+  </Options>
+  <Snapshot>
+    <ObjectSnapshots>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.RelationalDataSource</Type>
+        <TimeStamp>Rz9DdDwq/zuiIScecKmk6OPZvak=12/4/2019 2:13:04 PM12/4/2019 2:45:02 PM</TimeStamp>
+        <ID>
+          <String>UG Team2</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.DataSourceView</Type>
+        <TimeStamp>zHVRcCWjzAvd6vtWzCq4BNLQGQQ=12/4/2019 2:19:33 PM12/4/2019 2:45:02 PM</TimeStamp>
+        <ID>
+          <String>UG Team2</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>y0G3bp5UgXsg8YW1rF7k5YBy7LY=12/4/2019 2:48:51 PM12/4/2019 2:47:07 PM</TimeStamp>
+        <ID>
+          <String>Athletes</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>pMIfC5YX+HLchohObPS7d29POqU=12/4/2019 2:47:44 PM12/4/2019 2:47:07 PM</TimeStamp>
+        <ID>
+          <String>Games</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>YZvs45D3CP0j/ZaRapxG/lDcA84=12/4/2019 2:49:08 PM12/4/2019 2:47:07 PM</TimeStamp>
+        <ID>
+          <String>Teams</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>4HElvAJpaxw5GJSZUCMf4I4dEhw=12/4/2019 2:50:07 PM12/4/2019 2:47:07 PM</TimeStamp>
+        <ID>
+          <String>Events</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>67pH1mctAmXyT00KZfX7pxs5Hhw=12/4/2019 2:49:53 PM12/4/2019 2:47:07 PM</TimeStamp>
+        <ID>
+          <String>Medals</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Cube</Type>
+        <TimeStamp>YJgQea9+Zc9/QDkNikjwV3gXpwI=12/4/2019 2:50:10 PM12/4/2019 2:47:07 PMZK4VP6MHckV8cY9Y/8jDqTsddak=12/4/2019 2:47:07 PM12/4/2019 2:47:07 PM</TimeStamp>
+        <ID>
+          <String>UG Team2</String>
+        </ID>
+      </ObjectSnapshot>
+    </ObjectSnapshots>
+    <DatabaseSnapshot>
+      <Type>Microsoft.AnalysisServices.Database</Type>
+      <TimeStamp>+c8LLOIG8VBvR0+/gAOYbw4cwU0=11/20/2019 2:25:57 PM12/4/2019 2:45:02 PM</TimeStamp>
+      <ID>
+        <String>Olympics</String>
+      </ID>
+    </DatabaseSnapshot>
+    <Granularity>Coarse</Granularity>
+  </Snapshot>
+  <AssemblyLocations />
+  <ProcessingComplete>true</ProcessingComplete>
+  <LastDeployed>2019-12-04T20:50:26.216667Z</LastDeployed>
+</DeploymentSnapshot>
